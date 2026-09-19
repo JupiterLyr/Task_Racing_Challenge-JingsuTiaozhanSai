@@ -1,6 +1,5 @@
-execute if score countdown command matches 155 run function tc:random20
+execute if score countdown command matches 155 run function tc:random_easy
 
-execute if score random command matches 32 run function tc:new_tast/12
 execute if score random command matches 1 run function tc:tast/2
 execute if score random command matches 2 run function tc:tast/3
 execute if score random command matches 3 run function tc:tast/4
@@ -21,14 +20,15 @@ execute if score random command matches 17 run function tc:tast/18
 execute if score random command matches 18 run function tc:tast/19
 execute if score random command matches 19 run function tc:tast/20
 execute if score random command matches 20 run function tc:tast/1
-execute if score random command matches 21 run function tc:new_tast/1
-execute if score random command matches 22 run function tc:new_tast/2
-execute if score random command matches 23 run function tc:new_tast/3
-execute if score random command matches 24 run function tc:new_tast/4
-execute if score random command matches 25 run function tc:new_tast/5
-execute if score random command matches 26 run function tc:new_tast/6
-execute if score random command matches 27 run function tc:new_tast/7
-execute if score random command matches 28 run function tc:new_tast/8
-execute if score random command matches 29 run function tc:new_tast/9
-execute if score random command matches 30 run function tc:new_tast/10
-execute if score random command matches 31 run function tc:new_tast/11
+execute if score random command matches 21 run function tc:new_tast/6
+execute if score random command matches 22 run function tc:new_tast/7
+execute if score random command matches 23 run function tc:new_tast/10
+execute if score random command matches 24 run function tc:new_tast/12
+execute if score random command matches 25 run function tc:tast/21
+execute if score random command matches 26 run function tc:tast/22
+execute if score random command matches 27 run function tc:tast/23
+execute if score random command matches 28 run function tc:tast/24
+execute if score random command matches 29 run function tc:tast/29
+execute if score random command matches 30 run function tc:tast/30
+execute if score random command matches 31 run function tc:tast/47
+execute if score random command matches 32 run function tc:tast/52

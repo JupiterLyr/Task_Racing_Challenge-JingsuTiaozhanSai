@@ -1,8 +1,10 @@
 title @a subtitle {"text": "感谢您的下载","color": "gold"}
 title @a title {"text": "已侦测到竞速挑战赛数据包","color": "red"}
-tellraw @a {"text": "Loaded 竞速挑战赛 by DragonL (R - 1.0.3)"}
-tellraw @a {"text": "Loaded 重新翻译 & 二改 by Y_ALANG (R - 1.0.6)"}
-tellraw @a {"text": "Loaded 三改 & 优化 by JupiterLyr (R - 1.1.2+)"}
+title @a subtitle {"text": "Version 1.1.6"}
+tellraw @a {"text": "[Loaded] 竞速挑战赛 by DragonL (Version 1.0.3)"}
+tellraw @a {"text": "[Loaded] 翻译 & 二改 by Y_ALANG (Version 1.0.6)"}
+tellraw @a {"text": "[Loaded] 三改 & 优化 by JupiterLyr (Version 1.0.7+)"}
+tellraw @a ["",{"text":"点击"},{"text":"这里","underlined":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://github.com/JupiterLyr/Task_Racing_Challenge-JingsuTiaozhanSai"}},{"text":"访问 GitHub 开源项目或获取数据包"}]
 execute as @a at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1
 execute as @a[tag=admin,gamemode=!creative] run function tc:inventory_ui
 execute as @a run attribute @s generic.max_health base set 20
@@ -74,7 +76,7 @@ execute if score loaded command matches 0 run scoreboard players set TimeLimit c
 execute if score loaded command matches 0 run scoreboard players set TaskType command 1
 execute if score loaded command matches 0 run scoreboard players set DayLight command 1
 execute if score loaded command matches 0 run scoreboard players set JoinWhileGame command 0
-execute if score loaded command matches 0 run function ac_rand:install
+# execute if score loaded command matches 0 run function ac_rand:install
 
 execute if score loaded command matches 0 run scoreboard players set loaded command 1
 

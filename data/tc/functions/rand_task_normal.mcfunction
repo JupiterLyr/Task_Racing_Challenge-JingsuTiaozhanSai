@@ -1,4 +1,4 @@
-execute if score countdown command matches 155 run function tc:random40
+execute if score countdown command matches 155 run function tc:random_normal
 
 execute if score random command matches 1 run function tc:tast/22
 execute if score random command matches 2 run function tc:tast/23
@@ -61,6 +61,6 @@ execute if score random command matches 58 run function tc:tast/66
 execute if score random command matches 59 run function tc:tast/69
 execute if score random command matches 60 run function tc:tast/70
 execute if score random command matches 61 run function tc:tast/1
-execute if score random command matches 62 run function tc:new_tast/4
+execute if score random command matches 62 run function tc:new_tast/6
 execute if score random command matches 63 run function tc:new_tast/7
 execute if score random command matches 64 run function tc:new_tast/12

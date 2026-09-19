@@ -1,7 +1,7 @@
 #creative inventory
 clear @a[gamemode=!creative,tag=admin]
 
-item replace entity @a[gamemode=!creative,tag=admin] hotbar.4 with bee_spawn_egg{display:{Name:'{"text":"§6§l设置本场游戏§c§l中心§6§l位置","bold":true,"italic": false}'},EntityTag:{Tags:["center"]}} 1
+item replace entity @a[gamemode=!creative,tag=admin] hotbar.4 with bee_spawn_egg{display:{Name:'{"text":"§6§l设置本场游戏§c§l中心§6§l位置","bold":true,"italic": false}'},EntityTag:{id:"minecraft:bee",Tags:["center"]}} 1
 
 item replace entity @a[gamemode=!creative,tag=admin] inventory.0 with gray_stained_glass_pane{display:{Name:'[{"text":"","italic":false}]'}} 1
 item replace entity @a[gamemode=!creative,tag=admin] inventory.9 with gray_stained_glass_pane{display:{Name:'[{"text":"","italic":false}]'}} 1
